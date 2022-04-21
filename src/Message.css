@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole-card-field {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.card-field {
+    width: 700px;
+}
+
+#card-cont {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#msg {
+    margin-top: 5px;
+    color: white;
+}
+
+#msg-admin {
+    width: fit-content;
+    margin-top: 25px;
+    padding: 25px 20px;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    text-align: right !important;
+}
+
+#msg-user {
+    width: fit-content;
+    padding: 25px 20px;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left !important;
+    margin-top: 25px;
+}
+
+#msg-guest-card {
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+#msg-card {
+    border-radius: 10px;
+    background-color: rgb(0, 179, 255);
+}
+
+#msg-guest-card #msg {
+    color: black;
+}

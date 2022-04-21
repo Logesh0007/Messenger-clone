@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: rgb(132, 206, 228);
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.msg-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.form-field {
+    padding: 20px;
+    margin: 30px 0 0 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-inside {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 50% !important;
+    background-color: rgb(132, 206, 228);
+    padding: 20px !important;
+    border-radius: 10px;
+}
+
+.ip {
+    width: 98%;
+}
+
+.but {
+    width: 2%;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.msg-show {
+    position: absolute;
+    top: 150px;
+    padding: 10px;
+    height: calc(100vh - 250px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
